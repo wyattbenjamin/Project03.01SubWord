@@ -8,6 +8,10 @@
  */
 
 import java.util.*;
+
+/**
+ * Gets root word and subwords.
+ */
 public class SubWord implements Comparable<SubWord> {
 
 

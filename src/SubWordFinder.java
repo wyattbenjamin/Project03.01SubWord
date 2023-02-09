@@ -3,11 +3,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * The subwordfinder puts the alphabet in.
+ */
 public class SubWordFinder implements WordFinder {
     private ArrayList<ArrayList<String>> dictionary;
     private String alpha = "abcdefghijklmnopqrstuvwxyz";
 
-
+    /**
+     * Puts the alphabet in.
+     */
     public SubWordFinder(){
         dictionary = new ArrayList<>();
         for(int i = 0; i<26; i++)
